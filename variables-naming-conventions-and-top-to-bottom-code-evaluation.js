@@ -24,9 +24,17 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let purchaserName = "Alice";
+let numberOfApples = 5;
+let costOfApples= 20;
+let receiverName = "John";
+let giveAwayApple = 10;
+let purchase = purchaserName + " bought " + numberOfApples + " items for $" + costOfApples + ".";
+let giveaway = purchaserName + " gave items worth $" + giveAwayApple + " to "+ receiverName+ ".";
+let balance = costOfApples - giveAwayApple;
 
-console.log(d);
+console.log(purchase);
+console.log(giveaway);
+console.log(purchaserName + " has remaining apples worth $" + balance + ".");
+
+
